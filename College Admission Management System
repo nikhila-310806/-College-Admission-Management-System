@@ -27,32 +27,8 @@ CREATE TABLE Applications (
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
  
-USE college_admission;
 
--- Students Table
-CREATE TABLE Students (
-    student_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
-    marks INT
-);
-
--- Courses Table
-CREATE TABLE Courses (
-    course_id INT AUTO_INCREMENT PRIMARY KEY,
-    course_name VARCHAR(100),
-    cutoff_marks INT
-);
-
--- Applications Table
-CREATE TABLE Applications (
-    app_id INT AUTO_INCREMENT PRIMARY KEY,
-    student_id INT,
-    course_id INT,
-    status VARCHAR(20) DEFAULT 'Pending',
-    FOREIGN KEY (student_id) REFERENCES Students(student_id),
-    FOREIGN KEY (course_id) REFERENCES Courses(course_id)
-);import java.sql.*;
+import java.sql.*;
 import java.util.*;
 import java.io.FileWriter;
 
@@ -61,7 +37,7 @@ public class CollegeAdmissionSystem {
     private static final String USER = "root";  // change your MySQL username
     private static final String PASSWORD = "password"; // change your MySQL password
 
-    private Connection conn;
+   importte Connection conn;
 
     public CollegeAdmissionSystem() throws Exception {
         conn = DriverManager.getConnection(URL, USER, PASSWORD);
