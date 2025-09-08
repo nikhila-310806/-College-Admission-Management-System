@@ -1,23 +1,37 @@
-# -College-Admission-Management-System
-*College Admission Management System*
-
-A web-based or console-based system to manage student applications, course allocation, and merit lists for college admissions.
+The College Admission Management System is a web-based application designed to streamline the admission process for educational institutions. Here's an overview:
 
 *Key Features:*
 
-1.  Students can register and apply for courses.
-2.  The system calculates merit scores based on student grades and other criteria.
-3.  Admins approve or reject applications based on cut-off scores and course availability.
-4.  Thee system generates admission lists in CSV or PDF format.
+- *Student Registration*: Students can register and apply for admission online.
+- *Application Management*: Administrators can view, approve, or reject applications.
+- *Merit Calculation*: The system calculates merit scores based on student grades and other criteria.
+- *Admission List Generation*: The system generates admission lists in CSV or PDF format.
+- *User-Friendly Interface*: The system provides a user-friendly interface for students and administrators.
+- *Secure Database*: The system stores data securely using MySQL.
 
 *Benefits:*
 
-1. *Streamlined Admission Process*: Automates the admission process, reducing manual errors and increasing efficiency.
-2. *Improved Transparency*: Provides clear and transparent admission criteria and processes.
-3. *Better Decision-Making*: Enables admins to make informed decisions based on data-driven insights.
+- *Time-Saving*: The system automates manual processes, reducing time and effort.
+- *Increased Efficiency*: The system streamlines the admission process, making it more efficient.
+- *Transparency*: The system provides transparency in the admission process.
+- *Improved Accuracy*: The system reduces errors and improves accuracy.
+
+*Modules:*
+
+- *Admin Module*: Allows administrators to manage courses, applications, notices, and reports.
+- *User Module*: Enables students to apply, check application status, update profiles, and submit fees.
 
 *Technical Requirements:*
 
-1. *Java and JDBC*: Used for building the application logic and interacting with the database.
-2. *MySQL*: Used for storing student, course, and application data.
+- *Front-end*: HTML, CSS, JavaScript, AJAX, jQuery
+- *Back-end*: PHP, Java, JSP, Servlet
+- *Database*: MySQL
+
+*Goals:*
+
+- *Automate Admission Process*: Automate the admission process to reduce manual work.
+- *Improve Efficiency*: Improve efficiency in managing student data and admission workflows.
+- *Enhance Transparency*: Provide transparency in the admission process .
+
+ 
 
